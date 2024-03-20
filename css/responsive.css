@@ -1,0 +1,770 @@
+
+/* ==================1199px start=================== */
+@media only screen and (max-width:1199px){
+    .about_us .wraper {
+        align-items: flex-start;
+    }
+    .about_us .wraper .left {
+        width: 35%;
+    }
+    .about_us .wraper .left .choco_img {
+        max-width: 370px;
+    }
+    .about_us .wraper .right {
+        width: 65%;
+    }
+
+    .testimonial .content_img1 {
+        z-index: -1;
+        max-width: 325px;
+    }
+    .testimonial .content_img1 img {
+        width: 100%;
+    }
+    .testimonial .main_testimonial .slick-dots li {
+        margin: 0 20px;
+    }
+
+    .counter {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .our_blog .food_img2 {
+        max-width: 450px;
+    }
+    .our_blog .food_img2 img {
+        width: 100%;
+    }
+    .our_blog .food_img1 {
+        top: 0;
+        max-width: 300px;
+    }
+    .our_blog .food_img1 img {
+        width: 100%;
+    }
+/* ==================1199px end=================== */
+}
+
+/* ==================1024px start=================== */
+@media only screen and (max-width:1024px){
+    .header .main_nav .wraper .logo {
+        max-width: 160px;
+    }
+    .header .main_nav .wraper .menu_bar .nav_link a {
+        font-size: 12px;
+        line-height: 22px;
+        padding: 15px;
+    }
+    .header .main_nav .wraper .menu_bar .bar_icon a {
+        font-size: 13px;
+        padding: 15px 0 15px 15px;
+    }
+    .banner .banner_img img {
+        height: 700px;
+    }
+    .our_menu .menu_wrap {
+        row-gap: 35px;
+    }
+    .our_menu .menu_wrap .left {
+        width: 100%;
+        padding-right: 0;
+    }
+    .our_menu .menu_wrap .left .titel p {
+        max-width: 100%;
+    }
+    .our_menu .menu_wrap .right {
+        width: 100%;
+    }
+
+    .about_us {
+        padding: 80px 0;
+    }
+    .about_us .wraper .left {
+        display: none;
+    }
+    .about_us .wraper .right {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .our_chefs .shape-1 {
+        right: 65px;    
+    }
+
+    .watch_video {
+        padding: 200px 0;
+    }
+    .watch_video .btn_detl h2 {
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .watch_video .btn_detl span a {
+        font-size: 35px;
+        width: 85px;
+        height: 85px;
+        margin: 0 35px;
+    }
+    .testimonial .main_testimonial .prev-arrow {
+        left: -20px;
+    }
+    .testimonial .main_testimonial .next-arrow {
+        right: -20px;
+    }
+
+    .booking .book_wrap .left {
+        padding-right: 40px;
+    }
+/* ==================1024px end=================== */
+}
+
+/* ==================991px start=================== */
+@media only screen and (max-width:991px){
+    label #open_btn {
+        display: block;
+    }
+    label {
+        display: block;
+    }
+    .header .top_header .wraper {
+        padding: 0 15px;
+    }
+    .header .main_nav .wraper {
+        padding: 0 15px;
+    }
+    .header .main_nav .wraper .menu_bar .nav_link a {
+        font-size: 16px;
+        color: #666;
+        font-weight: 600;
+    }
+   
+    .header .main_nav .wraper .menu_bar .nav_link .dropdown .drop_link {
+        background: #666;
+    }
+    .header .main_nav .wraper .menu_bar .bar_icon a {
+        display: none;
+    }
+    .header .main_nav .wraper .menu_bar {
+        display: block;
+        position: fixed;
+        top: 140px;
+        right: -100%;
+        width: 70%;
+        height: 100vh;
+        background: #ffd51b;
+        text-align: center;
+        transition: 0.5s;
+        padding: 40px;
+    }
+    .header .main_nav .wraper .menu_bar .nav_link:hover .dropdown {
+        top: 80px;
+        left: inherit;
+    }
+    .header .main_nav .wraper .menu_bar .nav_link:hover .dropdown {
+        top: 40px;
+        right: 30px;
+    }
+
+    #check:checked ~.wraper .menu_bar {
+        right: 0;
+    }
+    #check:checked ~ label #open_btn {
+        display: none;
+    }
+    #check:checked ~ label #close_btn {
+        display: block;
+    }
+
+
+    .banner .banner_img img {
+        height: 650px;
+    }
+    .banner .baner_cont .bnr_logo {
+        max-width: 250px;
+    }
+    .banner .baner_cont .bnr_titel .wrap {
+        margin: 0 -55px;
+    }
+    .banner .baner_cont .bnr_titel .wrap h1 {
+        font-size: 30px;
+        line-height: 42px;
+        padding: 0 55px;
+    }
+    .banner .baner_cont .bnr_titel p {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .our_menu {
+        padding: 45px 0;
+    }
+    .online_order .wraper {
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .online_order .wraper .order_detl {
+        text-align: center;
+    }
+    .online_order .wraper .order_detl h2 {
+        font-size: 25px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+    }
+    .online_order .wraper .order_detl h4 {
+        font-size: 18px;
+    }
+    .about_us {
+        padding: 45px 0;
+    }
+    .about_us .wraper .right .about_wrap .item_box .abt_detl {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .carmen {
+        padding: 100px 0;
+    }
+    .our_chefs {
+        padding: 60px 0;
+    }
+    .our_chefs .titel .line {
+        margin-bottom: 25px;
+    }
+    .watch_video {
+        padding: 150px 0;
+    }
+    .watch_video .btn_detl h2 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+    .watch_video .btn_detl span a {
+        font-size: 25px;
+        width: 70px;
+        height: 70px;
+        margin: 0 25px;
+    }
+    .testimonial {
+        padding: 45px 0 300px 0;
+    }
+    .testimonial .titel {
+        margin-bottom: 30px;
+    }
+    .milan_counter {
+        padding: 80px 0;
+    }
+    .milan_counter .wraper .counter-container {
+        width: 50%;
+    }
+    .milan_counter .wraper {
+        row-gap: 20px;
+    }
+    .milan_counter .wraper .counter-container:nth-child(2):after {
+        display: none;
+    }
+    .counter {
+        font-size: 35px;
+        line-height: 1.2;
+    }
+    .counter-container .icon {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+    .our_blog .food_img1 {
+        max-width: 250px;
+    }
+    .our_blog .blog_cont .blog_wrap .blog_img {
+        width: 40%;
+    }
+    .our_blog .blog_cont .blog_wrap .blog_detail {
+        width: 60%;
+    }
+    .booking {
+        padding: 80px 0;
+    }
+    .booking .book_wrap {
+        flex-direction: column-reverse;
+    }
+    .booking .book_wrap .left {
+        width: 100%;
+        padding-right: 0;
+    }
+    .booking .book_wrap .right {
+        width: 100%;
+        padding-left: 0;
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+    .contact_form {
+        margin: 45px 0;
+    }
+    .contact_form .wraper h2 {
+        text-align: center;
+    }
+    .contact_form .wraper .cont_detail {
+        margin-top: 50px;
+    }
+    .contact_form .wraper .cont_detail .box {
+        flex-direction: column;
+        text-align: center;
+        row-gap: 20px;
+    }
+    .footer .wraper {
+        row-gap: 25px;
+    }
+    .footer .wraper .inner_panel {
+        width: 50%;
+        text-align: center;
+    }
+    .footer .wraper .inner_panel:nth-child(2) {
+        padding-left: 15px;
+        order: 1;
+    }
+    .footer .wraper .inner_panel:nth-child(3) {
+        order: 2;
+    }
+    .footer .wraper .inner_panel:first-child {
+        order: 3;
+    }
+    .footer .wraper .inner_panel:last-child {
+        order: 4;
+    }
+    .footer .wraper .inner_panel h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .footer .wraper .inner_panel .social_link {
+        justify-content: center;
+    }
+    .footer .copy_right {
+        margin-top: 45px;
+    }
+/* ==================991px end=================== */
+}
+
+/* ==================767px start=================== */
+@media only screen and (max-width:767px){
+    .titel span {
+        line-height: 1.2;
+    }
+    .header .top_header .wraper .left a p, .header .top_header .wraper .right a p {
+        display: none;
+    }
+    .header .main_nav .wraper .menu_bar {
+        top: 120px;
+    }
+    .banner .banner_img img {
+        height: 480px;
+    }
+    .banner .baner_cont {
+        top: 65%;
+    }
+    .banner .baner_cont .bnr_logo {
+        max-width: 200px;
+    }
+    .banner .baner_cont .bnr_titel .wrap {
+        margin: 0 -35px;
+    }
+    .banner .baner_cont .bnr_titel .wrap h1 {
+        font-size: 30px;
+        line-height: 1.2;
+        padding: 0 35px;
+    }
+    .our_menu .menu_wrap .left .titel .line {
+        margin: 15px 0;
+    }
+    .our_menu .menu_wrap .right .wraper {
+        justify-content: center;
+    }
+    .our_menu .menu_wrap .right .wraper .item_box {
+        width: 50%;
+    }
+    .our_menu .menu_wrap .right .wraper .item_box:nth-child(3) {
+        border-right: 1px solid #e9e9e9;
+    }
+    .our_menu .menu_wrap .right .wraper .item_box:nth-child(2), 
+    .our_menu .menu_wrap .right .wraper .item_box:nth-child(4), 
+    .our_menu .menu_wrap .right .wraper .item_box:nth-child(8) {
+        border-right: 0;
+    }
+    .our_menu .menu_wrap .right .wraper .item_box:last-child {
+        display: none;
+    }
+    .online_order .wraper .order_detl h2 {
+        font-size: 22px;
+    }
+    .online_order .wraper .order_detl h4 {
+        font-size: 16px;
+    }
+    .about_us .wraper .right .titel .line {
+        margin: 15px 0;
+    }
+    .about_us .wraper .right .about_wrap {
+        row-gap: 30px;
+        margin-top: 35px;
+    }
+    .about_us .wraper .right .about_wrap .item_box {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        row-gap: 15px;
+    }
+    .about_us .wraper .right .about_wrap .item_box .icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .about_us .wraper .right .about_wrap .item_box .abt_detl h5 {
+        font-size: 20px;
+    }
+    .about_us .wraper .right .about_wrap .item_box .abt_detl p {
+        font-size: 16px;
+    }
+    .about_us .wraper .right .about_wrap .item_box .abt_detl h5::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .carmen {
+        padding: 50px 0;
+    }
+    .carmen .carmen_text h3 {
+        font-size: 30px;
+        line-height: 1.4;
+        margin-bottom: 15px;
+    }
+    .carmen .carmen_text span {
+        font-size: 16px;
+    }
+    .our_chefs .shape-1 {
+        right: 20px;
+        max-width: 150px;
+    }
+    .our_chefs .shape-1 img {
+        width: 100%;
+    }
+    .our_chefs .titel .line {
+        margin: 15px 0;
+    }
+    .our_chefs .chef_slide .item_box .chef_img {
+        max-width: 200px;
+    }
+    .our_chefs .shape-3, .our_chefs .shape-2 {
+        max-width: 140px;
+    }
+    .our_chefs .shape-3 img, .our_chefs .shape-2 img {
+        width: 100%;
+    }
+    .watch_video {
+        padding: 80px 0;
+    }
+    .watch_video .btn_detl {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .watch_video .btn_detl span a {
+        order: 1;
+    }
+    .watch_video .btn_detl h2:first-child {
+        order: 2;
+        margin-top: 15px;
+    }
+    .watch_video .btn_detl h2:last-child {
+        order: 3;
+    }
+    .testimonial {
+        padding: 45px 0 200px 0;
+    }
+    .testimonial .main_testimonial .slick-dots {
+        bottom: -100px;
+    }
+    .testimonial .content_img1, .testimonial .content_img2 {
+        display: none;
+    }
+    .our_blog {
+        padding: 100px 0 100px 0;
+    }
+    .our_blog .food_img1 {
+        max-width: 200px;
+    }
+    .our_blog .food_img2 {
+        max-width: 250px;
+    }
+    .our_blog .titel {
+        margin-bottom: 40px;
+    }
+    .our_blog .blog_cont .blog_wrap .blog_img {
+        width: 100%;
+    }
+    .our_blog .blog_cont .blog_wrap .blog_detail {
+        width: 100%;
+        padding: 30px 25px 25px 25px;
+    }
+    .our_blog .blog_cont .blog_wrap .blog_img .date {
+        top: 25px;
+        left: 25px;
+    }
+    .booking .book_wrap .right .titel .timing {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+    .logo_slide {
+        padding: 40px 0;
+    }
+    .contact_form .wraper .cont_detail .box .text p {
+        font-size: 15px;
+    }
+/* ==================767px end=================== */
+}
+
+/* ==================575px start=================== */
+@media only screen and (max-width:575px){
+    .banner .baner_cont .bnr_logo {
+        max-width: 170px;
+        bottom: 140;
+    }
+    .banner .baner_cont .bnr_titel .wrap {
+        margin: -25px;
+    }
+    .banner .baner_cont .bnr_titel .wrap h1 {
+        font-size: 25px;
+        padding: 0 25px;
+    }
+    .banner .baner_cont .bnr_titel p {
+        margin-top: 40px;
+    }
+    .testimonial .main_testimonial .slick-dots li {
+        width: 46px;
+        height: 46px;
+    }
+    .contact_form .wraper .form .form_input {
+        width: 100%;
+    }
+    .contact_form .wraper .cont_detail {
+        margin-top: 35px;
+        row-gap: 30px;
+    }   
+    .contact_form .wraper .cont_detail .box {
+        width: 100%;
+        row-gap: 15px;
+    }
+    .footer {
+        padding-top: 50px;
+    }
+    .footer .wraper .inner_panel .Opening_time li {
+        line-height: 1.2;
+    }
+    .footer .wraper .inner_panel {
+        width: 100%;
+    }
+    .footer .wraper .inner_panel:first-child {
+        order: 4;
+    }
+    .footer .wraper .inner_panel:last-child {
+        order: 3;
+    }
+/* ==================575px end=================== */
+}
+
+/* ==================480px start=================== */
+@media only screen and (max-width:480px){
+    .titel h2 {
+        font-size: 25px !important;
+        margin-top: 10px;
+    }
+    .titel span {
+        font-size: 26px;
+    }
+    .header .top_header {
+        padding: 15px 0;
+    }
+    .header .main_nav .wraper .logo {
+        max-width: 130px;
+    }
+    .header .main_nav .wraper .menu_bar {
+        top: 100px;
+    }
+    .banner .baner_cont .bnr_logo {
+        bottom: 200px;
+    }
+    .banner .baner_cont .bnr_titel .wrap {
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+    }
+    .banner .baner_cont .bnr_titel .wrap h1 {
+        font-size: 25px;
+        padding: 0;
+    }
+    .banner .baner_cont .bnr_titel p {
+        font-size: 16px;
+        line-height: 1.4;
+        margin-top: 20px;
+    }
+    .banner .banner_slide .prev-arrow, .banner .banner_slide .next-arrow {
+        width: 30px;
+        height: 40px;
+    }
+    .our_menu .menu_wrap .right .wraper .item_box {
+        width: 100%;
+        padding: 15px;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 1px solid #e9e9e9;
+    } 
+    .our_menu .menu_wrap .right .wraper .item_box:nth-child(7), 
+    .our_menu .menu_wrap .right .wraper .item_box:nth-child(8) {
+        border-bottom: 1px solid #e9e9e9;
+    }
+    .our_menu .menu_wrap .right .wraper .item_box:last-child {
+        border-bottom: 0;
+        display: block;
+    }
+    .about_us .wraper .right .about_wrap .item_box .abt_detl p {
+        font-size: 15px;
+    }
+    .watch_video .btn_detl h2 {
+        font-size: 26px;
+    }
+    .about_us .wraper .right .about_wrap .item_box .abt_detl h5 {
+        font-size: 16px;
+    }
+    .carmen .carmen_text h3 {
+        font-size: 26px;
+    }
+    .testimonial {
+        padding: 45px 0 120px 0;
+    }
+    .testimonial .titel .line {
+        margin-top: 15px;
+    }
+    .testimonial .main_testimonial .testi_box p {
+        font-size: 14px;
+        line-height: 1.4;
+        text-align: center;
+        margin: 15px 0 10px 0;
+    }
+    .testimonial .main_testimonial .testi_box h5 {
+        text-align: center;
+        line-height: 1.2;
+    }
+    .testimonial .main_testimonial .slick-dots {
+        bottom: -50px;
+    }
+    .testimonial .main_testimonial .testi_box span {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+    .testimonial .main_testimonial .slick-dots li {
+        width: 30px;
+        height: 30px;
+        margin: 0 10px;
+    }
+    .milan_counter {
+        padding: 50px 0;
+    }
+    .counter-container .icon {
+        font-size: 25px;
+    }
+    .counter {
+        font-size: 30px;
+    }
+    .milan_counter .wraper .counter-container {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .milan_counter .wraper .counter-container:last-child {
+        padding-bottom: 0;
+    }
+    .milan_counter .wraper .counter-container::after {
+        top: inherit;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 35px;
+        height: 2px;
+    }
+    .milan_counter .wraper .counter-container:nth-child(2)::after {
+        display: block;
+    }
+    .our_blog {
+        padding: 50px 0;
+    }
+    .our_blog .titel .line {
+        margin: 15px 0 15px 0;
+    }
+    .our_blog .blog_cont .blog_wrap .blog_img .date {
+        top: 15px;
+        left: 15px;
+        width: 60px;
+        height: 60px;
+    }
+    .our_blog .titel {
+        margin-bottom: 30px;
+    }
+    .our_blog .blog_cont .blog_wrap {
+        padding-bottom: 25px;
+    }
+    .our_blog .blog_cont .blog_wrap .blog_img .date h5 {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+    .our_blog .blog_cont .blog_wrap .blog_img .date span {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+    .our_blog .blog_cont .blog_wrap .blog_detail {
+        padding: 20px 15px;
+    }
+    .our_blog .blog_cont .blog_wrap .blog_detail .top .likes a {
+        font-size: 12px;
+        line-height: 1.2;
+        padding: 0 10px;
+    }
+    .our_blog .blog_cont .blog_wrap .blog_detail .bottom p {
+        font-size: 14px;
+        line-height: 1.4;
+        margin-bottom: 10px;
+    }
+    .our_blog .blog_wrap .blog_detail .bottom .buton {
+        line-height: 1.2;
+    }
+    .our_blog .food_img2, .our_blog .food_img1 {
+        display: none;
+    }
+    .booking {
+        padding: 50px 0;
+    }
+    .booking .book_wrap .right .titel .line img {
+        margin: 15px auto;
+    }
+    .booking .book_wrap .right .titel .timing {
+        font-size: 16px;
+    }
+    .booking .book_wrap .right .titel .text {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+    .contact_form .wraper h2 {
+        font-size: 25px;
+    }
+    .contact_form .wraper .form {
+        row-gap: 20px;
+    }
+    .contact_form .wraper .cont_detail .box .text p {
+        line-height: 1.2;
+        padding-left: 0;
+    }
+/* ==================480px end=================== */
+}
+
+/* =================413px start================ */
+@media only screen and (max-width:413px){
+    .banner .baner_cont .bnr_logo {
+        bottom: 215px;
+    }
+/* ==================413px end=================== */
+}
+
+/* ==================320px start=================== */
+@media only screen and (max-width:320px){
+    
+/* ==================320px end=================== */
+}
